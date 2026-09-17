@@ -25,14 +25,19 @@ public class TrabalhoUmTerceiroTrimestre {
 //          
 //          System.out.printf("%s", livro1.exibirDetalhes());
 //          System.out.printf("%s\n", livro1.aplicarDesconto(10));
-//          System.out.printf("%s", livro2.exibirDetalhes());
+//          System.out.printf("\n%s", livro2.exibirDetalhes());
 //          System.out.printf("%s", livro2.aplicarDesconto(50));
 //Ex4
-//          Veiculo carro = new Veiculo("chevrolet", "Opala", 1992, 200);
+//          Veiculo carro1 = new Veiculo("Chevrolet", "Opala", 1992, 200);
+//          Veiculo carro2 = new Veiculo("Honda", "Honda Ballade", 1990, 500);
 //          
-//          System.out.printf("O tempo de uso é de: %d\n", carro.calcularTempoDeUso(2026));
-//          System.out.printf("A quilometragem atual é de: %d\n", carro.registrarViagem(20));
-//          System.out.printf("%s", carro.exibirDados());
+//          System.out.printf("%s km\n", carro1.exibirDados());
+//          System.out.printf("O tempo de uso é de: %d anos\n", carro1.calcularTempoDeUso(2026));
+//          System.out.printf("A quilometragem atual é de: %d km\n", carro1.registrarViagem(20));
+//          System.out.printf("%s km\n", carro2.exibirDados());
+//          System.out.printf("O tempo de uso é de: %d anos\n", carro2.calcularTempoDeUso(2026));
+//          System.out.printf("A quilometragem atual é de: %d km", carro2.registrarViagem(500));
+
 
             CarteiraDigital num1 = new CarteiraDigital("Ana", (float)200.00, 3);
             

@@ -19,7 +19,7 @@ public class Livro {
     
     public String aplicarDesconto(Integer percentual){
         if(percentual > 0 && percentual <= 50){
-            return "\nDesconto aplicado com sucesso! Valor atual R$ " + (this.preco - (this.preco * percentual));
+            return "\nDesconto aplicado com sucesso! Valor atual R$ " + (this.preco - (this.preco * (percentual / 100)));
         }else{
             return "\nValor invalido!";
         }
